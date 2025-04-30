@@ -12,7 +12,7 @@ for(let i=0;i<size*size;i++){
 
 grid(16);
 
-const sq=document.querySelector(".square");
+
 
 
 
