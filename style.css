@@ -6,7 +6,10 @@
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .container{
@@ -20,10 +23,26 @@ body{
 }
 
 .square{
-    border: 1px solid black;
-    width: 6.25%;
+    border: 
+    1px solid black;
+
 }
 
 .hovered{
     background-color: red;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: cornflowerblue;
 }
