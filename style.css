@@ -1,6 +1,5 @@
 *{
-    margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
 }
 
@@ -13,30 +12,26 @@ body{
 }
 
 .container{
- margin-top: 30px;
+ margin: 25px;
  display: flex;   
  flex-wrap: wrap;
- justify-content: space-between;
- width: 600px;
- height: 600px;
+ width: 40%;
+ aspect-ratio: 1/1;
+ height: 50%;
  background-color: #bfbfbf;
 }
 
 .square{
-    border: 
-    1px solid black;
-
-}
-
-.hovered{
-    background-color: red;
+    aspect-ratio: 1/1;
+    border: 1px solid gray; 
+    transition: 0.2s;  
 }
 
 button{
-    width: 150px;
+    width: 8%;
     height: 50px;
     color: white;
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
     background-color: blue;
     border-color: blue;
@@ -45,4 +40,8 @@ button{
 
 button:hover{
     background-color: cornflowerblue;
+}
+
+.checkboxes{
+    margin-top: 20px;
 }
